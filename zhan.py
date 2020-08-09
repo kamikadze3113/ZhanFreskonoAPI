@@ -28,7 +28,7 @@ class JacquesMod(loader.Module):
 	async def jcmd(self, message):
 		""".j <реплай на сообщение/свой текст>\n@offsd подпишись-пожалеешь"""
 		
-		ufr = requests.get("https://github.com/Sad0ff/jac-ftg/raw/master/open-sans.ttf")
+		ufr = requests.get("https://github.com/Sad0ff/modules-ftg/raw/master/open-sans.ttf")
 		f = ufr.content
 		
 		reply = await message.get_reply_message()
