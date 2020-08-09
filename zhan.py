@@ -1,3 +1,4 @@
+#Changed by @kamikadze3113 (Telegram)
 from telethon import events
 from .. import loader, utils
 import os
@@ -14,7 +15,7 @@ class JacquesMod(loader.Module):
 	"""Жаконизатор"""
 	strings = {
 		'name': 'Жаконизатор',
-		'usage': 'ТАК СЛОЖНО НАПИСАТЬ <code>.help Жаконизатор</code> , ДОЛБАЕБ?',
+		'usage': 'ТАК СЛОЖНО НАПИСАТЬ <code>.help Жаконизатор</code>',
 	}
 	def __init__(self):
 		self.name = self.strings['name']
